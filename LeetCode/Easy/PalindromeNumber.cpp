@@ -1,6 +1,6 @@
 class PalindromeNumber {
     
-    boolean isPalindrome(int x){
+    bool isPalindrome(int x){
         int reverse=0,r,og;
         og=x;
         if(x==0) return true;
@@ -15,4 +15,4 @@ class PalindromeNumber {
         else return false;
     }
     
-}
+};
