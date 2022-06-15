@@ -1,4 +1,4 @@
-public class PalindromeNumber {
+class PalindromeNumber {
     
     boolean isPalindrome(int x){
         int reverse=0,r,og;
