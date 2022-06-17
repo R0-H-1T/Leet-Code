@@ -1,3 +1,15 @@
+
+ /* Definition for singly-linked list.*/
+class ListNode {
+    int val;
+    ListNode next;
+    ListNode() {}
+    ListNode(int val) { this.val = val; }
+    ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+}
+ 
+
+
 public class Merge_Two_Sorted_Lists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode p = new ListNode(0);
@@ -22,7 +34,7 @@ public class Merge_Two_Sorted_Lists {
 
     
 
-    public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
+    public ListNode mergeTwoListsRecur(ListNode l1, ListNode l2) {
         if(l1==null) return l2;
         if(l2==null) return l1;
         ListNode handler = null;
