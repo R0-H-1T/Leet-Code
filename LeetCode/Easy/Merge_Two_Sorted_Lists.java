@@ -40,10 +40,10 @@ public class Merge_Two_Sorted_Lists {
         ListNode handler = null;
         if(l1.val<l2.val){
             handler = l1;
-            handler.next = mergeTwoLists(l1.next, l2);
+            handler.next = mergeTwoListsRecur(l1.next, l2);
         }else{
             handler  = l2;
-            handler.next = mergeTwoLists(l1, l2.next);
+            handler.next = mergeTwoListsRecur(l1, l2.next);
         }
         return handler;
     }
