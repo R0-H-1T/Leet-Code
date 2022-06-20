@@ -1,4 +1,4 @@
-public class Single_Number {
+public class Single_Number{
     public int singleNumber(int[] nums) {
         //XOR Bitwise operator
         //0 ^ N = N
@@ -8,6 +8,5 @@ public class Single_Number {
             res^=n;
         }
         return res;        
-
     } 
 }
