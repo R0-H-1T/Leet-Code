@@ -1,5 +1,4 @@
-class Solution 
-{
+class Solution{
     public:
         int value(char r){ 
             if (r == 'I') 
